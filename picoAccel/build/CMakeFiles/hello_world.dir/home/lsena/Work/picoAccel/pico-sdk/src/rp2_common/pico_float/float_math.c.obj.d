@@ -1,0 +1,30 @@
+CMakeFiles/hello_world.dir/home/lsena/Work/picoAccel/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: \
+ /home/lsena/Work/picoAccel/pico-sdk/src/rp2_common/pico_float/float_math.c \
+ /home/lsena/Work/picoAccel/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/lsena/Work/picoAccel/pico-sdk/src/common/pico_base/include/pico/assert.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/assert.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/_ansi.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/newlib.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/_newlib_version.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/config.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/machine/ieeefp.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/features.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/stdint.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/machine/_default_types.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/_intsup.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/_stdint.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /home/lsena/Work/picoAccel/pico-sdk/src/rp2_common/pico_float/include/pico/float.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/math.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/reent.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/_ansi.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/_types.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/machine/_types.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/lock.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/cdefs.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
+ /home/lsena/Work/picoAccel/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h \
+ /home/lsena/Work/picoAccel/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+ /home/lsena/Work/picoAccel/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h

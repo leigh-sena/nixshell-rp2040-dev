@@ -1,0 +1,457 @@
+The system is: Linux - 5.15.43 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/3.22.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/3.22.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/nix/store/2hvj24gaq4y32cyf0jp9sj01y00k7czy-gnumake-4.3/bin/make -f Makefile cmTC_faa2e/fast && make[3]: Entering directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp'
+/nix/store/2hvj24gaq4y32cyf0jp9sj01y00k7czy-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_faa2e.dir/build.make CMakeFiles/cmTC_faa2e.dir/build
+make[4]: Entering directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o
+/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/gcc   -v -o CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o -c /nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/bin/gcc
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_faa2e.dir/'
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/cc1 -quiet -v -D _FORTIFY_SOURCE=2 -idirafter /nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include -idirafter /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed -isystem /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include -isystem /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include /nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_faa2e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fPIC -fstack-protector-strong -fno-strict-overflow -frandom-seed=v3919yy7n7 -fcommon --param=ssp-buffer-size=4 -o /run/user/1000/ccumEULr.s
+GNU C17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include"
+ignoring nonexistent directory "/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../x86_64-unknown-linux-gnu/include"
+ignoring duplicate directory "/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include"
+ignoring duplicate directory "/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed"
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed
+ /nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include
+End of search list.
+GNU C17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 0938d3cb740f9c133fedc8f9a437cfcf
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_faa2e.dir/'
+ /nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/as -v --64 -o CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o /run/user/1000/ccumEULr.s
+GNU assembler version 2.38 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_faa2e
+/nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faa2e.dir/link.txt --verbose=1
+/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/gcc  -v CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o -o cmTC_faa2e 
+Using built-in specs.
+COLLECT_GCC=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/bin/gcc
+COLLECT_LTO_WRAPPER=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'cmTC_faa2e' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib' '-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'cmTC_faa2e.'
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2 -plugin /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/ccB9kQGb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib64/ld-linux-x86-64.so.2 -o cmTC_faa2e /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o -L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib -L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib -L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib -L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib -L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib -L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib -L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib -L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib -L/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0 -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64 -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../.. -dynamic-linker=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o -rpath /nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib64 -rpath /nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'cmTC_faa2e' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib' '-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'cmTC_faa2e.'
+make[4]: Leaving directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include]
+    add: [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+    add: [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include]
+    add: [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+    add: [/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include]
+  end of search list found
+  collapse include dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include] ==> [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include]
+  collapse include dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+  collapse include dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include]
+  collapse include dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+  collapse include dir [/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include] ==> [/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include]
+  implicit include dirs: [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed;/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/2hvj24gaq4y32cyf0jp9sj01y00k7czy-gnumake-4.3/bin/make -f Makefile cmTC_faa2e/fast && make[3]: Entering directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp']
+  ignore line: [/nix/store/2hvj24gaq4y32cyf0jp9sj01y00k7czy-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_faa2e.dir/build.make CMakeFiles/cmTC_faa2e.dir/build]
+  ignore line: [make[4]: Entering directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/gcc   -v -o CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o -c /nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/bin/gcc]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_faa2e.dir/']
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/cc1 -quiet -v -D _FORTIFY_SOURCE=2 -idirafter /nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include -idirafter /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed -isystem /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include -isystem /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include /nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_faa2e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fPIC -fstack-protector-strong -fno-strict-overflow -frandom-seed=v3919yy7n7 -fcommon --param=ssp-buffer-size=4 -o /run/user/1000/ccumEULr.s]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include"]
+  ignore line: [ignoring nonexistent directory "/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include]
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include]
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+  ignore line: [ /nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 0938d3cb740f9c133fedc8f9a437cfcf]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_faa2e.dir/']
+  ignore line: [ /nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/as -v --64 -o CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o /run/user/1000/ccumEULr.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_faa2e]
+  ignore line: [/nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faa2e.dir/link.txt --verbose=1]
+  ignore line: [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/gcc  -v CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o -o cmTC_faa2e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'cmTC_faa2e' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib' '-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'cmTC_faa2e.']
+  link line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2 -plugin /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/ccB9kQGb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib64/ld-linux-x86-64.so.2 -o cmTC_faa2e /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o -L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib -L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib -L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib -L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib -L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib -L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib -L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib -L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib -L/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0 -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64 -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../.. -dynamic-linker=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o -rpath /nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib64 -rpath /nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o]
+    arg [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/run/user/1000/ccB9kQGb.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_faa2e] ==> ignore
+    arg [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o] ==> obj [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o]
+    arg [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o] ==> obj [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o]
+    arg [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o] ==> obj [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o]
+    arg [-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib] ==> dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib]
+    arg [-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib] ==> dir [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib]
+    arg [-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib] ==> dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib]
+    arg [-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib] ==> dir [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib]
+    arg [-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib] ==> dir [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib]
+    arg [-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib] ==> dir [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib]
+    arg [-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib] ==> dir [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib]
+    arg [-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib] ==> dir [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib]
+    arg [-L/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin] ==> dir [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin]
+    arg [-L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0] ==> dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0]
+    arg [-L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64] ==> dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64]
+    arg [-L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..] ==> dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..]
+    arg [-dynamic-linker=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_faa2e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o] ==> obj [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o]
+    arg [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o] ==> obj [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o]
+  collapse library dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib] ==> [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib]
+  collapse library dir [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib] ==> [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib]
+  collapse library dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib] ==> [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib]
+  collapse library dir [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib] ==> [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib]
+  collapse library dir [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib] ==> [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib]
+  collapse library dir [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib] ==> [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib]
+  collapse library dir [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib] ==> [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib]
+  collapse library dir [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib] ==> [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib]
+  collapse library dir [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin] ==> [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin]
+  collapse library dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0]
+  collapse library dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib64]
+  collapse library dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o;/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o;/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o]
+  implicit dirs: [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib;/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib;/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib;/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib;/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib64;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/nix/store/2hvj24gaq4y32cyf0jp9sj01y00k7czy-gnumake-4.3/bin/make -f Makefile cmTC_c789f/fast && make[3]: Entering directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp'
+/nix/store/2hvj24gaq4y32cyf0jp9sj01y00k7czy-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_c789f.dir/build.make CMakeFiles/cmTC_c789f.dir/build
+make[4]: Entering directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o
+/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/g++   -v -o CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/bin/g++
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_c789f.dir/'
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 -idirafter /nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include -idirafter /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed -isystem /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include -isystem /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include /nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c789f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fPIC -fstack-protector-strong -fno-strict-overflow -frandom-seed=v3919yy7n7 -fcommon --param=ssp-buffer-size=4 -o /run/user/1000/ccteD9K8.s
+GNU C++17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include"
+ignoring nonexistent directory "/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../x86_64-unknown-linux-gnu/include"
+ignoring duplicate directory "/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include"
+ignoring duplicate directory "/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed"
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-unknown-linux-gnu
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed
+ /nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include
+End of search list.
+GNU C++17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 46f6d6bfdd91f663ae32c236eacc768a
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_c789f.dir/'
+ /nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/as -v --64 -o CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o /run/user/1000/ccteD9K8.s
+GNU assembler version 2.38 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_c789f
+/nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c789f.dir/link.txt --verbose=1
+/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/g++  -v CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c789f 
+Using built-in specs.
+COLLECT_GCC=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/bin/g++
+COLLECT_LTO_WRAPPER=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'cmTC_c789f' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib' '-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'cmTC_c789f.'
+ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2 -plugin /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/ccC2NIUi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib64/ld-linux-x86-64.so.2 -o cmTC_c789f /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o -L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib -L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib -L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib -L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib -L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib -L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib -L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib -L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib -L/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0 -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64 -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../.. -dynamic-linker=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o -rpath /nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib64 -rpath /nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o
+COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'cmTC_c789f' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib' '-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'cmTC_c789f.'
+make[4]: Leaving directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include]
+    add: [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0]
+    add: [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-unknown-linux-gnu]
+    add: [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward]
+    add: [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+    add: [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include]
+    add: [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+    add: [/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include]
+  end of search list found
+  collapse include dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include] ==> [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include]
+  collapse include dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include/c++/11.3.0]
+  collapse include dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-unknown-linux-gnu] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu]
+  collapse include dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include/c++/11.3.0/backward]
+  collapse include dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+  collapse include dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include]
+  collapse include dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+  collapse include dir [/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include] ==> [/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include]
+  implicit include dirs: [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include/c++/11.3.0;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include/c++/11.3.0/backward;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed;/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/2hvj24gaq4y32cyf0jp9sj01y00k7czy-gnumake-4.3/bin/make -f Makefile cmTC_c789f/fast && make[3]: Entering directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp']
+  ignore line: [/nix/store/2hvj24gaq4y32cyf0jp9sj01y00k7czy-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_c789f.dir/build.make CMakeFiles/cmTC_c789f.dir/build]
+  ignore line: [make[4]: Entering directory '/home/lsena/Work/picoAccel/picoAccel/build/elf2uf2/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/g++   -v -o CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/bin/g++]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_c789f.dir/']
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 -idirafter /nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include -idirafter /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed -isystem /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include -isystem /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include /nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c789f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fPIC -fstack-protector-strong -fno-strict-overflow -frandom-seed=v3919yy7n7 -fcommon --param=ssp-buffer-size=4 -o /run/user/1000/ccteD9K8.s]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include"]
+  ignore line: [ignoring nonexistent directory "/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include]
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0]
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-unknown-linux-gnu]
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward]
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/include]
+  ignore line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+  ignore line: [ /nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 46f6d6bfdd91f663ae32c236eacc768a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_c789f.dir/']
+  ignore line: [ /nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/as -v --64 -o CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o /run/user/1000/ccteD9K8.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_c789f]
+  ignore line: [/nix/store/2vghx1q4zjalxpdz1pwcqz9id2fhl8kb-cmake-3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c789f.dir/link.txt --verbose=1]
+  ignore line: [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/g++  -v CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c789f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/:/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib/:/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fno-strict-overflow' '-v' '-o' 'cmTC_c789f' '-B' '/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/' '-idirafter' '/nix/store/a0s1vq35j3g6aa757v7yg0a001l01ng4-glibc-2.34-210-dev/include' '-idirafter' '/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-B' '/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin/' '-frandom-seed=v3919yy7n7' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-isystem' '/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/include' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib' '-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib' '-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib' '-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon' '-dumpdir' 'cmTC_c789f.']
+  link line: [ /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2 -plugin /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/run/user/1000/ccC2NIUi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib64/ld-linux-x86-64.so.2 -o cmTC_c789f /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o -L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib -L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib -L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib -L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib -L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib -L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib -L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib -L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib -L/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0 -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64 -L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../.. -dynamic-linker=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o -rpath /nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib64 -rpath /nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o /nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o]
+    arg [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/run/user/1000/ccC2NIUi.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c789f] ==> ignore
+    arg [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o] ==> obj [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o]
+    arg [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o] ==> obj [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o]
+    arg [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o] ==> obj [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o]
+    arg [-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib] ==> dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib]
+    arg [-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib] ==> dir [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib]
+    arg [-L/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib] ==> dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib]
+    arg [-L/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib] ==> dir [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib]
+    arg [-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib] ==> dir [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib]
+    arg [-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib] ==> dir [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib]
+    arg [-L/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib] ==> dir [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib]
+    arg [-L/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib] ==> dir [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib]
+    arg [-L/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin] ==> dir [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin]
+    arg [-L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0] ==> dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0]
+    arg [-L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64] ==> dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64]
+    arg [-L/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..] ==> dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..]
+    arg [-dynamic-linker=/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_c789f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/v3919yy7n7hgyqjn76fmwvj953bas4x5-pico-dev-env/lib] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o] ==> obj [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o]
+    arg [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o] ==> obj [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o]
+  collapse library dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib] ==> [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib]
+  collapse library dir [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib] ==> [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib]
+  collapse library dir [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib] ==> [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib]
+  collapse library dir [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib] ==> [/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib]
+  collapse library dir [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib] ==> [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib]
+  collapse library dir [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib] ==> [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib]
+  collapse library dir [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib] ==> [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib]
+  collapse library dir [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib] ==> [/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib]
+  collapse library dir [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin] ==> [/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin]
+  collapse library dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0]
+  collapse library dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib64]
+  collapse library dir [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..] ==> [/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crt1.o;/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crti.o;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o;/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib/crtn.o]
+  implicit dirs: [/nix/store/vzqny68wq33dcg4hkdala51n5vqhpnwc-python3-3.9.12/lib;/nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib;/nix/store/lyl6nysc3i3aqhj6shizjgj0ibnf1pvg-glibc-2.34-210/lib;/nix/store/g9x3cm8wdmpm86pyiff6arx8skmdwkn7-gcc-11.3.0-lib/lib;/nix/store/r7r10qvsqlnvbzjkjinvscjlahqbxifl-gcc-wrapper-11.3.0/bin;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib64;/nix/store/d7q0qfm12hb59wj63wyjs0hrdhmmapfz-gcc-11.3.0/lib]
+  implicit fwks: []
+
+

@@ -1,0 +1,24 @@
+CMakeFiles/hello_world.dir/home/lsena/Work/picoAccel/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: \
+ /home/lsena/Work/picoAccel/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/c++/10.3.1/cstdlib \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/stdlib.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/machine/ieeefp.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/_ansi.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/newlib.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/_newlib_version.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/config.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/features.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/reent.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/_ansi.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/_types.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/machine/_types.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/machine/_default_types.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/lock.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/sys/cdefs.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/machine/stdlib.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/alloca.h \
+ /nix/store/yshf0x17an3ib9r4sckbwdk6m61dnkay-gcc-arm-embedded-10.3.1/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h
